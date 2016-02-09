@@ -6,12 +6,6 @@
   text-transform: uppercase;
 }
 
-.nav.nav-pills.nav-justified li {
-  float: none;
-  display: inline-block;
-  width: 16%;
-}
-
 .nav-pills {
   text-align: center;
 }

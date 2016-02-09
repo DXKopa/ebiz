@@ -34,7 +34,7 @@
                 <li<c:if test="${fn:endsWith(uri,'/')}"> class="active"</c:if>><a href="${pageContext.request.contextPath}/">Home</a></li>
                 <li><a href="#">Reserve</a></li>
                 <li><a href="#">Gallery</a></li>
-                <li><a href="#">About</a></li>
+                <li<c:if test="${fn:endsWith(uri,'about')}"> class="active"</c:if>><a href="${pageContext.request.contextPath}/about">About</a></li>
                 <%-- Change upper right context menu depending on if the user is logged in or not: --%>
                 <c:choose>
                     <c:when test="${!empty account}">

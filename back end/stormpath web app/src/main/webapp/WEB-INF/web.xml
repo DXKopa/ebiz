@@ -20,6 +20,14 @@
         <servlet-name>DashboardController</servlet-name>
         <url-pattern>/dashboard</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>AboutController</servlet-name>
+        <servlet-class>tutorial.AboutController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AboutController</servlet-name>
+        <url-pattern>/about</url-pattern>
+    </servlet-mapping>
 
 
     <servlet-mapping>

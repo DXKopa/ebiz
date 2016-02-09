@@ -10,27 +10,26 @@
 <t:page>
     <jsp:attribute name="title">Welcome to Converge!</jsp:attribute>
     <jsp:body>
-
         <div class="jumbotron">
-          <div class="container">
+          <div class="container" id="banner">
                 <h1>Weddings, Meetings, Anything.</h1>
                 <a href="#">Reserve your event now.</a>
           </div>
         </div>
         <div class="neighborhood-guides">
-        	        <div class="container">
-                        <div class="row">
-                         <div class="col-md-3">
-            	                <h2>Features</h2>
-            	                <p>Features include:</p>
-                            </div>
-            	            <div class="col-md-3">
-            	                <div class="thumbnail">
-            	                    <img src="https://pixabay.com/static/uploads/photo/2015/09/13/15/05/festival-938253_960_720.jpg">
-            	                </div>
-            	            </div>
-            	         </div>-
-            	    </div>
+	        <div class="container">
+                <div class="row">
+                 <div class="col-md-3">
+    	                <h2>Features</h2>
+    	                <p>Features include:</p>
+                    </div>
+    	            <div class="col-md-3">
+    	                <div class="thumbnail">
+    	                    <img src="https://pixabay.com/static/uploads/photo/2015/09/13/15/05/festival-938253_960_720.jpg">
+    	                </div>
+    	            </div>
+    	         </div>-s
+    	    </div>
         </div>
         <div class="learn-more">
     	    <div class="container">
@@ -55,22 +54,7 @@
                 </div>
             </div>
         </div>
-        <div class="video">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="thumbnail">
-                            <img src="https://lh5.ggpht.com/jZ8XCjpCQWWZ5GLhbjRAufsw3JXePHUJVfEvMH3D055ghq0dyiSP3YxfSc_czPhtCLSO=w300">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div>
-                            <p>Text</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <div id="container">
             <header>
                 <h1>Banner</h1>
@@ -91,16 +75,5 @@
             <img src="image-3.jpg" alt="" />
             <img src="image-4.jpg" alt="" />
         </div>
-        <div class="about_us">
-            <div class="container">
-                <h1>About Us</h1>
-                <div class="row">
-                    <div class="col-md-4">
-                        <p><a href="#">Learn More</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </jsp:body>
 </t:page>
