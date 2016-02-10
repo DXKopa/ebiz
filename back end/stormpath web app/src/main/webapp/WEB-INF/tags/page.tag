@@ -32,7 +32,14 @@
             <ul class="nav nav-pills nav-justified">
                 <c:set var="uri" value="${requestScope['javax.servlet.forward.request_uri']}"/>
                 <li<c:if test="${fn:endsWith(uri,'/')}"> class="active"</c:if>><a href="${pageContext.request.contextPath}/">Home</a></li>
-                <li><a href="#">Reserve</a></li>
+                <c:choose>
+                    <c:when test="${!empty account}">
+                        <li<c:choose><c:when test="${fn:endsWith(uri,'reserve')}"> class="active"</c:when><c:when test="${fn:endsWith(uri,'reserved')}"> class="active"</c:when></c:choose>><a href="${pageContext.request.contextPath}/reserve">Reserve</a></li>
+                    </c:when>
+                    <c:otherwise>
+                        <li<c:if test="${fn:endsWith(uri,'login')}"> class="active"</c:if>><a href="${pageContext.request.contextPath}/login">Reserve</a></li>
+                    </c:otherwise>
+                </c:choose>
                 <li><a href="#">Gallery</a></li>
                 <li<c:if test="${fn:endsWith(uri,'about')}"> class="active"</c:if>><a href="${pageContext.request.contextPath}/about">About</a></li>
                 <%-- Change upper right context menu depending on if the user is logged in or not: --%>

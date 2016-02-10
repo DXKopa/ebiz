@@ -1,3 +1,5 @@
 tutorial\AboutController.class
+tutorial\ReserveController.class
 tutorial\HomeController.class
+tutorial\ReservedController.class
 tutorial\DashboardController.class

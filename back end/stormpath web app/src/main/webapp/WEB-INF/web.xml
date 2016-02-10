@@ -12,6 +12,7 @@
         <servlet-name>HomeController</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>DashboardController</servlet-name>
         <servlet-class>tutorial.DashboardController</servlet-class>
@@ -20,6 +21,7 @@
         <servlet-name>DashboardController</servlet-name>
         <url-pattern>/dashboard</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>AboutController</servlet-name>
         <servlet-class>tutorial.AboutController</servlet-class>
@@ -29,6 +31,23 @@
         <url-pattern>/about</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>ReserveController</servlet-name>
+        <servlet-class>tutorial.ReserveController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReserveController</servlet-name>
+        <url-pattern>/reserve</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReservedController</servlet-name>
+        <servlet-class>tutorial.ReservedController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReservedController</servlet-name>
+        <url-pattern>/reserved</url-pattern>
+    </servlet-mapping>
 
     <servlet-mapping>
         <servlet-name>default</servlet-name>
