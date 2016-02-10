@@ -8,7 +8,7 @@
 	<jsp:body>
 			<!--Header:-->
 
-			<h2>Converge is a nationally-renowned luxury banquet hall service, catering to thousands of people across 54 different locations.</h2>
+			<h1>Converge is a nationally-renowned luxury banquet hall service, catering to thousands of people across 54 different locations.</h1>
 
 			<!--Body:-->
 
@@ -18,7 +18,7 @@
 
 			<p>We offer unprecedented services to our customers, including an irresistable assortment of hors d'oeuvre and drinks, a 50-foot ballroom and world-class attendents ready to address your needs and wants. Our most distinuishing feature to date, however, is our widely acclaimed website, which gives customers a chance to reserve their event in advance without the hassle of picking up the phone or filling out convoluted paperwork. Converge wanted to give its customers a quick and easy process for creating reservations, so its founders built a powerful, no-frills website to complete just that.</p>
 
-			<br><h4>Our Mission:</h4>
+			<br><h3>Our Mission:</h3>
 
 			<p>Our trail starts with our mission, which we uphold with the greatest care and passion. It declares our objective as a company and serves as the standard for our actions and choices.</p>
 			<ul>
@@ -27,6 +27,17 @@
 				<li>To create an environment which cultivates happiness and optimism</li>
 			</ul>
 
-			<br><h4>Meet the Founders:</h4>
+			<br><h3>Request a Digital Sales Kit</h4>
+
+			<br><h3>Contact Us</h4>
+			<h4>Phone:</h4>
+			<p>(800) CON-VERGE</p>
+			<h4>Email:</h4>
+			<p>convergeincorporated@gmail.com</p>
+			<h4>Mail:</h4>
+			<p>Converge Incorporated</p>
+			<p>P.O. Box 29402-2BW</p>
+			<p>Ontario, CA 91764</p>
+
 	</jsp:body>
 </t:page>
