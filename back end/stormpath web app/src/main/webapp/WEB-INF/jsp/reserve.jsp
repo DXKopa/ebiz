@@ -23,11 +23,35 @@
                            value="${!empty account.customData['endDate'] ? account.customData['endDate'] : ''}">
                 </div>
             </div>
+
+            <div class="form-group">
+            	<h3>Service Package</h3>
+            	<div class="col-md-6">
+            		<input type="radio" name="servicePackage" value="gold"> Gold
+            	</div>
+            	<div class="col-md-6">
+  					<input type="radio" name="servicePackage" value="platinum"> Platinum
+  				</div>
+  			</div>
+
+  			<div class="form-group">
+            	<h3>Billing Information</h3>
+            	<div class="col-md-4">
+            		 <input type="text" class="form-control" id="phone" name="phone" placeholder="mm/dd/yyyy"
+                           value="${!empty account.customData['startDate'] ? account.customData['startDate'] : ''}">
+            	</div>
+            	<div class="col-md-4">
+  					<input type="radio" name="servicePackage" value="platinum"> Platinum
+  				</div>
+  			</div>
+
+
             <div class="form-group">
                 <div class="col-md-1 col-md-offset-1">
                     <button type="submit" class="btn btn-primary">Reserve</button>
                 </div>
             </div>
         </form>
+
 	</jsp:body>
 </t:page>
