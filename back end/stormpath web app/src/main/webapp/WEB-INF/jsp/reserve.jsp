@@ -8,7 +8,7 @@
 	<jsp:body>
         <h1>Reservations</h1>
 
-        <iframe src="https://calendar.google.com/calendar/embed?title=Reservation%20Dates&amp;showPrint=0&amp;showTabs=0&amp;height=700&amp;wkst=1&amp;bgcolor=%23cccccc&amp;src=convergeincorporated%40gmail.com&amp;color=%231B887A&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="1100" height="700" frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://calendar.google.com/calendar/embed?title=Reservation%20Dates&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=convergeincorporated%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
 
         <form method="post" class="bs-example form-horizontal" action="${pageContext.request.contextPath}/reserved">
             <div class="form-group">
