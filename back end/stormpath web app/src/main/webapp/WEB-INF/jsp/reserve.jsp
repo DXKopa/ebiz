@@ -95,11 +95,12 @@
               </div>
   			    </div><br>
 
-            <div class="form-group">
+            <br><br><div class="form-group">
                 <div class="col-md-offset-2 col-md-1">
                     <button type="submit" class="btn btn-primary">Reserve My Event</button>
                 </div>
             </div>
+            <br><br><br>
         </form>
 	</jsp:body>
 </t:page>

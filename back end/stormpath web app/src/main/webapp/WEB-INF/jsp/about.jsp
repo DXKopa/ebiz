@@ -6,9 +6,32 @@
 <t:page>
  	<jsp:attribute name="title">About Converge</jsp:attribute>
 	<jsp:body>
+
+
+    <div class="container marketing">
+
 			<!--Header:-->
 
 			<h1>Converge is a nationally-renowned luxury banquet hall service, catering to thousands of people across 54 different locations.</h1>
+
+			<!-- Three columns of text below the carousel -->
+			<br><div class="row">
+			<div class="col-lg-4" style="text-align: center">
+			  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+			  <h3>Darren Kopa</h3>
+			  <p>CEO</p>
+			</div><!-- /.col-lg-4 -->
+			<div class="col-lg-4" style="text-align: center">
+			  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+			  <h3>Daniel Lin</h3>
+			  <p>CEO</p>
+			</div><!-- /.col-lg-4 -->
+			<div class="col-lg-4" style="text-align: center">
+			  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+			  <h3>Forest Yang</h3>
+			  <p>CEO</p>
+			</div><!-- /.col-lg-4 -->
+			</div><!-- /.row -->
 
 			<!--Body:-->
 
@@ -30,14 +53,21 @@
 			<br><button type="button" class="btn btn-primary">Request a digital sales kit</button></br>
 
 			<br><h3>Contact Us</h4>
-			<h4>Phone:</h4>
-			<p>(800) CON-VERGE</p>
-			<h4>Email:</h4>
-			<p>convergeincorporated@gmail.com</p>
+			<div class="col-lg-4">
+				<h4>Phone:</h4>
+				<p>(800) CON-VERGE</p>
+			</div>
+			<div class="col-lg-4">
+				<h4>Email:</h4>
+				<p>convergeincorporated@gmail.com</p>
+			</div>
+			<div class="col-lg-4">
 			<h4>Mail:</h4>
-			<p>Converge Incorporated</p>
-			<p>P.O. Box 29402-2BW</p>
-			<p>Ontario, CA 91764</p>
+				<p>Converge Incorporated</p>
+				<p>P.O. Box 29402-2BW</p>
+				<p>Ontario, CA 91764</p><br><br><br>
+			</div>
+			
 
 	</jsp:body>
 </t:page>
