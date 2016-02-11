@@ -27,7 +27,7 @@
 				<li>To create an environment which cultivates happiness and optimism</li>
 			</ul>
 
-			<br><h3>Request a Digital Sales Kit</h4>
+			<br><button type="button" class="btn btn-primary">Request a digital sales kit</button></br>
 
 			<br><h3>Contact Us</h4>
 			<h4>Phone:</h4>

@@ -13,7 +13,14 @@
         <div class="jumbotron">
           <div class="container" id="banner">
                 <h1>Weddings, Meetings, Anything.</h1>
-                <a href="#">Reserve your event now.</a>
+                <c:choose>
+                    <c:when test="${!empty account}">
+                        <a href="${pageContext.request.contextPath}/reserve">Reserve your event now.</a>
+                    </c:when>
+                    <c:otherwise>
+                        <a href="${pageContext.request.contextPath}/login">Reserve your event now.</a>
+                    </c:otherwise>
+                </c:choose>
           </div>
         </div>
         <div class="neighborhood-guides">
@@ -28,7 +35,7 @@
     	                    <img src="https://pixabay.com/static/uploads/photo/2015/09/13/15/05/festival-938253_960_720.jpg">
     	                </div>
     	            </div>
-    	         </div>-s
+    	         </div>
     	    </div>
         </div>
         <div class="learn-more">
