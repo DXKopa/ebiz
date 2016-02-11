@@ -17,19 +17,19 @@
 			<!-- Three columns of text below the carousel -->
 			<br><div class="row">
 			<div class="col-lg-4" style="text-align: center">
-			  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-			  <h3>Darren Kopa</h3>
-			  <p>CEO</p>
+			  <img class="img-circle" src="https://media.creativemornings.com/uploads/user/avatar/89900/Profile_picture_square.jpg" alt="Generic placeholder image" width="140" height="140">
+			  <h3>Wilson Roydon</h3>
+			  <p>Director of Engineering</p>
 			</div><!-- /.col-lg-4 -->
 			<div class="col-lg-4" style="text-align: center">
-			  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-			  <h3>Daniel Lin</h3>
-			  <p>CEO</p>
+			  <img class="img-circle" src="https://pbs.twimg.com/profile_images/1147092361/profile_BW_square.jpg" alt="Generic placeholder image" width="140" height="140">
+			  <h3>Kennith Ronald</h3>
+			  <p>Chief Executive Officer</p>
 			</div><!-- /.col-lg-4 -->
 			<div class="col-lg-4" style="text-align: center">
-			  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-			  <h3>Forest Yang</h3>
-			  <p>CEO</p>
+			  <img class="img-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfVQFuT0rbMVcRtjCOrgk_ga1dJ3ZIXeJlF-pnZ3WQxsBablHC" alt="Generic placeholder image" width="140" height="140">
+			  <h3>Malcolm Asher</h3>
+			  <p>Director of Sales</p>
 			</div><!-- /.col-lg-4 -->
 			</div><!-- /.row -->
 
@@ -67,7 +67,7 @@
 				<p>P.O. Box 29402-2BW</p>
 				<p>Ontario, CA 91764</p><br><br><br>
 			</div>
-			
+
 
 	</jsp:body>
 </t:page>
