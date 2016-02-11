@@ -49,6 +49,15 @@
         <url-pattern>/reserved</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>GalleryController</servlet-name>
+        <servlet-class>tutorial.GalleryController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GalleryController</servlet-name>
+        <url-pattern>/gallery</url-pattern>
+    </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>default</servlet-name>
         <url-pattern>/assets/*</url-pattern>
