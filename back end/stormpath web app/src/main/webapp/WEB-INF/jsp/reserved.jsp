@@ -6,7 +6,7 @@
 <t:page>
 	<jsp:attribute name="title">Reserved</jsp:attribute>
 	<jsp:body>
-		<h2>Thanks for reserving!</h2>
+		<h2>Thanks for reserving, <span class="data">${account.givenName}</span>!</h2>
 		   	<p>Dates: <span class="data">${account.customData['startDate']}</span> to <span class="data">${account.customData['endDate']}</span></p>
 	</jsp:body>
 </t:page>

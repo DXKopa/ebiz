@@ -15,7 +15,7 @@
                         <br/>
                         <br/>
 
-                        <p>Welcome!</p>
+                        <p>Welcome, <span class="data">${account.givenName}</span>!</p>
 
                         <p>This page displays some of your account information and your reservations.</p>
 
@@ -23,7 +23,7 @@
                         <br/>
                         <br/>
 
-                        <p>Your Email: <span class="data">${account.email}</span></p>
+                        <p>Your email: <span class="data">${account.email}</span></p>
 
                         <p>Your reservations: 
                             

@@ -11,9 +11,26 @@
 
 <t:page>
 	<jsp:body>
-		<div class="fotorama">
+		<div class="fotorama"
+			data-width="100%"
+       		data-height="93%"
+       		data-fit="cover"
+       		data-allowfullscreen="native"
+
+       		data-nav="thumbs"
+       		data-thumbwidth="72"
+       		data-thumbheight="56"
+
+       		data-trackpad="true"
+       		data-keyboard="true"
+
+       		data-autoplay="3000"
+       		data-stopautoplayontouch="false"
+       		
+       		data-loop="true">
   			<img src="http://s.fotorama.io/1.jpg">
   			<img src="http://s.fotorama.io/2.jpg">
+  			<img src="http://s.fotorama.io/3.jpg">
 		</div>
 	</jsp:body>
 </t:page>
