@@ -77,8 +77,8 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Featuring our premium, sophisticated venues and services</h2>
+          <br><p class="lead">Come to Converge Banquet Halls today to enjoy our luxurious dining halls and expansive venues. We offer state-of-the art projection and sound systems for all your purposes.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" src="...\..\assets\png\HomePage1.jpg" alt="Generic placeholder image" width="809" height="500">
@@ -89,8 +89,8 @@
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Experience the finest dining from world-class chefs</h2>
+          <br><p class="lead">At our award-winning banquet halls, you can enjoy fresh, high quality food — including our rare variety of steaks, fresh seafood and finest selection of wines.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
           <img class="featurette-image img-responsive center-block" src="...\..\assets\png\HomePage2.jpg" alt="Generic placeholder image" width="809" height="500">
@@ -101,8 +101,8 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">A variety of packages to suit your every need</h2>
+          <br><p class="lead">Whether you’re looking for a formal environment or a more exciting dynamic, our specialized packages will be able to accommodate your needs flawlessly.</p>
         </div>
         <div class="col-md-5">
            <img class="featurette-image img-responsive center-block" src="...\..\assets\png\HomePage3.jpg" alt="Generic placeholder image" width="809" height="500">
