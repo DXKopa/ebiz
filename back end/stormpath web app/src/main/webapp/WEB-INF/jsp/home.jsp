@@ -90,7 +90,7 @@
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
           <h2 class="featurette-heading">Experience the finest dining from world-class chefs</h2>
-          <br><p class="lead">At our award-winning banquet halls, you can enjoy fresh, high quality food — including our rare variety of steaks, fresh seafood and finest selection of wines.</p>
+          <br><p class="lead">At our award-winning banquet halls, you can enjoy fresh, high quality food — including our variety of gourmet steaks, fresh seafood and finest selection of wines.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
           <img class="featurette-image img-responsive center-block" src="...\..\assets\png\HomePage2.jpg" alt="Generic placeholder image" width="809" height="500">

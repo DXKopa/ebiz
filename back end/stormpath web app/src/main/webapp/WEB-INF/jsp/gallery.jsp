@@ -28,9 +28,23 @@
        		data-stopautoplayontouch="false"
        		
        		data-loop="true">
-  			<img src="http://s.fotorama.io/1.jpg">
-  			<img src="http://s.fotorama.io/2.jpg">
-  			<img src="http://s.fotorama.io/3.jpg">
+  			<img src="..\..\assets\png\Gallery\img1.jpg">
+  			<img src="..\..\assets\png\Gallery\img2.jpg">
+  			<img src="..\..\assets\png\Gallery\img3.jpg">
+        <img src="..\..\assets\png\Gallery\img4.jpg">
+        <img src="..\..\assets\png\Gallery\img5.jpg">
+        <img src="..\..\assets\png\Gallery\img6.jpg">
+        <img src="..\..\assets\png\Gallery\img7.jpg">
+        <img src="..\..\assets\png\Gallery\img8.jpg">
+        <img src="..\..\assets\png\Gallery\img9.jpg">
+        <img src="..\..\assets\png\Gallery\img10.jpg">
+        <img src="..\..\assets\png\Gallery\img11.jpg">
+        <img src="..\..\assets\png\Gallery\img12.jpg">
+        <img src="..\..\assets\png\Gallery\img13.jpg">
+        <img src="..\..\assets\png\Gallery\img14.jpg">
+        <img src="..\..\assets\png\Gallery\img15.jpg">
+        <img src="..\..\assets\png\Gallery\img16.jpg">
 		</div>
+    <br>
 	</jsp:body>
 </t:page>
