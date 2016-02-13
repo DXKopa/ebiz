@@ -9,7 +9,7 @@
     <packaging>war</packaging>
 
     <properties>
-    <tomcat.version>8.0.28</tomcat.version>
+    <tomcat.version>7.0.67</tomcat.version>
     </properties>
 
     <dependencies>
