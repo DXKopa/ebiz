@@ -78,7 +78,7 @@
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Featuring our premium, sophisticated venues and services</h2>
-          <br><p class="lead">Come to Converge Banquet Halls today to enjoy our luxurious dining halls and expansive venues. We offer state-of-the art projection and sound systems for all your purposes.</p>
+          <br><p class="lead">Come to Converge Banquet Halls today to enjoy our luxurious dining halls and expansive venues. We offer state-of-the art projection and sound systems for all kinds of activities.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" src="...\..\assets\png\HomePage1.jpg" alt="Generic placeholder image" width="809" height="500">
@@ -90,7 +90,7 @@
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
           <h2 class="featurette-heading">Experience the finest dining from world-class chefs</h2>
-          <br><p class="lead">At our award-winning banquet halls, you can enjoy fresh, high quality food — including our variety of gourmet steaks, fresh seafood and finest selection of wines.</p>
+          <br><p class="lead">At our award-winning banquet halls, you can enjoy fresh, high quality food — including our variety of gourmet steaks, fresh seafood and the finest selection of wines.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
           <img class="featurette-image img-responsive center-block" src="...\..\assets\png\HomePage2.jpg" alt="Generic placeholder image" width="809" height="500">
@@ -102,7 +102,7 @@
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">A variety of packages to suit your every need</h2>
-          <br><p class="lead">Whether you’re looking for a formal environment or a more exciting dynamic, our specialized packages will be able to accommodate your needs flawlessly.</p>
+          <br><p class="lead">Whether you’re looking for a formal environment or a more exciting dynamic, our specialized packages will be able to accommodate all your needs.</p>
         </div>
         <div class="col-md-5">
            <img class="featurette-image img-responsive center-block" src="...\..\assets\png\HomePage3.jpg" alt="Generic placeholder image" width="809" height="500">
