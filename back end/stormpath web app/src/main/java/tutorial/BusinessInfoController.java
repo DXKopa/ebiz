@@ -6,9 +6,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class GalleryController extends HttpServlet {
+public class BusinessInfoController extends HttpServlet {
 
-    public static final String VIEW_TEMPLATE_PATH = "/WEB-INF/jsp/gallery.jsp";
+    public static final String VIEW_TEMPLATE_PATH = "/WEB-INF/jsp/businessInfo.jsp";
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
