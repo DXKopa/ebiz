@@ -1,0 +1,11 @@
+.jumbotron {
+  background-image:url('http://beautifulshadesindy.com/wp-content/gallery/event-center/5.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 500px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 90px;
+}
