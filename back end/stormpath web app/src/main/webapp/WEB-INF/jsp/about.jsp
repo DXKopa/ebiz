@@ -49,6 +49,8 @@
 				<li>To adhere to the utmost standards of hospitality</li>
 				<li>To create an environment which cultivates happiness and optimism</li>
 			</ul>
+			
+			<p>If at any time you feel dissatisfied with our service, we guarantee full refund.</p>
 
 			<br><button type="button" class="btn btn-primary">Request a digital sales kit</button></br>
 
