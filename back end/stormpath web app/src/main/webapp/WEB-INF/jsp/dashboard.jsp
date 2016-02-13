@@ -28,7 +28,7 @@
                         <p>Your reservations: 
                             
                                 <c:choose>
-                                    <c:when test="${!empty account.customData['startDate']}"><span class="data">${account.customData['startDate']}</span> to <span class="data">${account.customData['endDate']}</span></c:when>
+                                    <c:when test="${!empty account.customData['startDate']}"><span class="data">${account.customData['servicePackage']}</span> from <span class="data">${account.customData['startDate']}</span> to <span class="data">${account.customData['endDate']}</span></c:when>
                                     <c:otherwise>You haven't made a reservation yet!</c:otherwise>
                                 </c:choose>
                             </span>

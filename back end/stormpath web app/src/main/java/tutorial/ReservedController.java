@@ -20,16 +20,19 @@ public class ReservedController extends HttpServlet {
 
         String startDate = "";
         String endDate = "";
+        String servicePackage = "";
 
         Account account = AccountResolver.INSTANCE.getAccount(req);
         if (account != null) {
             CustomData data = account.getCustomData();
             startDate = (String)data.get("startDate");
-           	endDate = (String)data.get("endDate");
+            endDate = (String)data.get("endDate");
+            servicePackage = (String)data.get("servicePackage");
         }
 
         req.setAttribute("startDate", startDate);
         req.setAttribute("endDate", endDate);
+        req.setAttribute("servicePackage", servicePackage);
         req.getRequestDispatcher(VIEW_TEMPLATE_PATH).forward(req, resp);
     }
 
@@ -38,6 +41,7 @@ public class ReservedController extends HttpServlet {
 
         String endDate = req.getParameter("endDate");
         String startDate = req.getParameter("startDate");
+        String servicePackage = req.getParameter("servicePackage");
 
         //get the currently-logged-in account:
         Account account = AccountResolver.INSTANCE.getAccount(req);
@@ -57,11 +61,18 @@ public class ReservedController extends HttpServlet {
                 data.remove("startDate");
             }
 
+            if (Strings.hasText(servicePackage)) {
+                data.put("servicePackage", servicePackage);
+            } else {
+                data.remove("servicePackage");
+            }
+
             data.save();
         }
 
         req.setAttribute("endDate", endDate);
         req.setAttribute("startDate", startDate);
+        req.setAttribute("servicePackage", servicePackage);
         req.getRequestDispatcher(VIEW_TEMPLATE_PATH).forward(req, resp);
     }
 }

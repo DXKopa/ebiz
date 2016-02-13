@@ -20,35 +20,34 @@ public class DashboardController extends HttpServlet {
 
         String startDate = "";
         String endDate = "";
+        String servicePackage = "";
 
         Account account = AccountResolver.INSTANCE.getAccount(req);
         if (account != null) {
             CustomData data = account.getCustomData();
             startDate = (String)data.get("startDate");
             endDate = (String)data.get("endDate");
+            servicePackage = (String)data.get("servicePackage");
         }
 
         req.setAttribute("startDate", startDate);
         req.setAttribute("endDate", endDate);
+        req.setAttribute("servicePackage", servicePackage);
         req.getRequestDispatcher(VIEW_TEMPLATE_PATH).forward(req, resp);
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        String startDate = "";
         String endDate = "";
+        String startDate = "";
+        String servicePackage = "";
 
         //get the currently-logged-in account:
         Account account = AccountResolver.INSTANCE.getAccount(req);
         if (account != null) {
-            CustomData data = account.getCustomData();
 
-            if (Strings.hasText(startDate)) {
-                data.put("startDate", startDate);
-            } else {
-                data.remove("startDate");
-            }
+            CustomData data = account.getCustomData();
 
             if (Strings.hasText(endDate)) {
                 data.put("endDate", endDate);
@@ -56,11 +55,24 @@ public class DashboardController extends HttpServlet {
                 data.remove("endDate");
             }
 
+            if (Strings.hasText(startDate)) {
+                data.put("startDate", startDate);
+            } else {
+                data.remove("startDate");
+            }
+
+            if (Strings.hasText(servicePackage)) {
+                data.put("servicePackage", servicePackage);
+            } else {
+                data.remove("servicePackage");
+            }
+
             data.save();
         }
 
-        req.setAttribute("startDate", startDate);
         req.setAttribute("endDate", endDate);
+        req.setAttribute("startDate", startDate);
+        req.setAttribute("servicePackage", servicePackage);
         req.getRequestDispatcher(VIEW_TEMPLATE_PATH).forward(req, resp);
     }
 }

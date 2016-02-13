@@ -7,6 +7,6 @@
 	<jsp:attribute name="title">Reserved</jsp:attribute>
 	<jsp:body>
 		<h2>Thanks for reserving, <span class="data">${account.givenName}</span>!</h2>
-		   	<p>Dates: <span class="data">${account.customData['startDate']}</span> to <span class="data">${account.customData['endDate']}</span></p>
+		   	<p>You reserved for a <span class="data">${account.customData['servicePackage']}</span> from <span class="data">${account.customData['startDate']}</span> to <span class="data">${account.customData['endDate']}</span>.</p>
 	</jsp:body>
 </t:page>

@@ -29,11 +29,14 @@
             <br><h4>Service Package</h4>
             <div class="form-group">
             	<div class="col-md-4">
-            		<label class="control-label"><input type="radio" id="servicePackage" name="servicePackage" value="gold" required> Gold</label> 
+            		<label class="control-label"><input type="radio" id="servicePackage" name="servicePackage" value="wedding" required> Wedding</label> 
             	</div>
             	<div class="col-md-4">
-      					<label class="control-label"><input type="radio" id="servicePackage" name="servicePackage" value="platinum"> Platinum</label>
+      					<label class="control-label"><input type="radio" id="servicePackage" name="servicePackage" value="business meeting"> Business Meeting</label>
       				</div>
+              <div class="col-md-4">
+                <label class="control-label"><input type="radio" id="servicePackage" name="servicePackage" value="celebrations"> Celebrations</label>
+              </div>
       			</div><br>
 
   			    
