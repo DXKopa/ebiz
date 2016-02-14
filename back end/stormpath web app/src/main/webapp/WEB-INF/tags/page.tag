@@ -42,12 +42,17 @@
                 </c:choose>
                 <li<c:if test="${fn:endsWith(uri,'gallery')}"> class="active"</c:if>><a href="${pageContext.request.contextPath}/gallery">Gallery</a></li>
                 <li<c:if test="${fn:endsWith(uri,'about')}"> class="active"</c:if>><a href="${pageContext.request.contextPath}/about">About</a></li>
-                <li class="dropdown">
+                <li 
+                <c:choose>
+                    <c:when test="${fn:endsWith(uri,'weddingsInfo')}"> class="dropdown active"</c:when>
+                    <c:when test="${fn:endsWith(uri,'businessMeetings')}"> class="dropdown active"</c:when>
+                    <c:when test="${fn:endsWith(uri,'celebrationsInfo')}"> class="dropdown active"</c:when>
+                </c:choose>>
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                        <li><a href="#">Weddings</a></li>
-                        <li><a href="#">Businesses</a></li>
-                        <li><a href="#">Celebrations</a></li>
+                        <li><a href="${pageContext.request.contextPath}/weddingsInfo">Weddings</a></li>
+                        <li><a href="${pageContext.request.contextPath}/businessMeetings">Businesses</a></li>
+                        <li><a href="${pageContext.request.contextPath}/celebrationsInfo">Celebrations</a></li>
                     </ul>
                 </li>
                 <%-- Change upper right context menu depending on if the user is logged in or not: --%>
