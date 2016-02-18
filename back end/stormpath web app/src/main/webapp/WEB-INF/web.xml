@@ -58,6 +58,33 @@
         <url-pattern>/gallery</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>CelebrationsInfoController</servlet-name>
+        <servlet-class>tutorial.CelebrationsInfoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CelebrationsInfoController</servlet-name>
+        <url-pattern>/celebrationsInfo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>WeddingsInfoController</servlet-name>
+        <servlet-class>tutorial.WeddingsInfoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WeddingsInfoController</servlet-name>
+        <url-pattern>/weddingsInfo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BusinessInfoController</servlet-name>
+        <servlet-class>tutorial.BusinessInfoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BusinessInfoController</servlet-name>
+        <url-pattern>/businessMeetings</url-pattern>
+    </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>default</servlet-name>
         <url-pattern>/assets/*</url-pattern>

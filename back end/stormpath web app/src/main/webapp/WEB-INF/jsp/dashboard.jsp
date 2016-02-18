@@ -2,7 +2,9 @@
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="t" tagdir="/WEB-INF/tags" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
+<head>
+    <link rel="stylesheet" type="text/css" href="..\..\assets\css\dashboardstyle.css">
+</head>
 <t:page>
     <jsp:attribute name="title">Dashboard</jsp:attribute>
     <jsp:body>
@@ -10,22 +12,22 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="jumbotron">
-                        <h1>Dashboard</h1>
-
-                        <br/>
-                        <br/>
-
+                        <div class="container" id="dashboardTitle">
+                            <h1 id="dashboardTitle">My Account</h1>
+                        </div>
+                    </div>
+                    <div class="container">
                         <p>Welcome, <span class="data">${account.givenName}</span>!</p>
 
-                        <p>This page displays some of your account information and your reservations.</p>
+                            <p>This page displays some of your account information and your reservations.</p>
 
-                        <p>To make a reservation, click on the tab in the navigation bar.</p>
-                        <br/>
-                        <br/>
+                            <p>To make a reservation, click on the tab in the navigation bar.</p>
+                            <br/>
+                            <br/>
 
-                        <p>Your email: <span class="data">${account.email}</span></p>
+                            <p>Your email: <span class="data">${account.email}</span></p>
 
-                        <p>Your reservations: 
+                            <p>Your reservations: 
                             
                                 <c:choose>
                                     <c:when test="${!empty account.customData['startDate']}"><span class="data">${account.customData['servicePackage']}</span> from <span class="data">${account.customData['startDate']}</span> to <span class="data">${account.customData['endDate']}</span></c:when>
